@@ -24,7 +24,7 @@ sudo apt install libfmt-dev
 ```
 cd;
 git clone https://github.com/strasdat/Sophus;
-cd Sophus; git checkout 1.22.10; mkdir build; cd build; cmake ..; make -j$(nproc); sudo make install;
+cd Sophus; git checkout 1.22.10; mkdir build; cd build; cmake .. -DSOPHUS_USE_BASIC_LOGGING=ON; make -j$(nproc); sudo make install;
 ```
 * Ceres Solver
 ```
