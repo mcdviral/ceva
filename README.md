@@ -63,3 +63,17 @@ Navigate to the folder scripts for a demo scripts.
 # License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and is intended for non-commercial academic use.
 
+# Reference
+The package is created as an tool for the MCD dataset. If you use this package in other works please consider citing MCD as
+
+```
+@software{mcdviral2023,
+  author  = {Anonymous},
+  title   = {MCD: Diverse Large-Scale Multi-Campus Dataset for Robot Perception},
+  license = {CC BY-NC-SA 4.0},
+  url     = {https://mcdviral.github.io/},
+  version = {1.0},
+  year    = {2023},
+  month   = {11}
+}
+```
