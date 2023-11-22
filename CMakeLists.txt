@@ -11,7 +11,7 @@ add_subdirectory(pybind11)
 # Needed non-ros packages
 find_package(OpenMP REQUIRED)
 find_package(Eigen3 REQUIRED)
-# find_package(fmt REQUIRED)
+find_package(fmt REQUIRED)
 find_package(Ceres REQUIRED)
 
 include_directories(
@@ -26,7 +26,7 @@ pybind11_add_module(
 
 # Link the module with libraries
 target_link_libraries(
-  ceva PRIVATE Eigen3::Eigen ${OpenMP_CXX_FLAGS} ${CERES_LIBRARIES}
+  ceva PRIVATE Eigen3::Eigen fmt::fmt ${OpenMP_CXX_FLAGS} ${CERES_LIBRARIES}
 )
 
 target_compile_definitions(
