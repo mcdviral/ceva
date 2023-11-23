@@ -57,8 +57,16 @@ git clone --recursive https://github.com/mcdviral/ceva; cd ceva; python3 setup.p
 
 ```
 
-# Demo
-Navigate to the folder scripts for a demo scripts.
+# What can this be used for?
+
+The package can be used for the following:
+
+* Create a spline with random control points or from log files.
+* Querry all information of the spline: order, min / max time, sampled pose, velocity, acceleration, etc.
+* Fit a spline to a noisy pose measurements.
+* Deskew a pointcloud.
+
+Navigate to the folder scripts for the demo scripts.
 
 # License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License and is intended for non-commercial academic use.
