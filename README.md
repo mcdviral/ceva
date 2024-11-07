@@ -16,16 +16,6 @@ Please ensure the following dependencies are installed
 ```
 sudo apt install libeigen3-dev
 ```
-* fmt
-```
-sudo apt install libfmt-dev
-```
-* [Sophus](https://github.com/strasdat/Sophus)
-```
-cd;
-git clone https://github.com/strasdat/Sophus;
-cd Sophus; git checkout 1.22.10; mkdir build; cd build; cmake .. ; make -j$(nproc); sudo make install;
-```
 * Ceres Solver
 ```
 ## Third party programs----------------------------------------------------
